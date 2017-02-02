@@ -5,6 +5,7 @@
 2. A 4-by-4 Soduko solver. Calling (next) will return a new solution. 
 
 3. A generalized (foldl) call that uses backtracking. Example,
+
     (fold-< max 0 (sin (* (-< 1 2 3 4) (+ (-< 100 200) (-< 1 2)))))
     0.9948267913584064
     
